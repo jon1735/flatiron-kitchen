@@ -1,0 +1,14 @@
+<h1> Welcome to the new ingredient form page </h1>
+
+<br>
+
+<h2>Create a new ingredient</h2>
+
+<%= form_for (@ingredient) do |form|%>
+<%= form.text_field :name%>
+
+<br>
+
+<%= form.submit%>
+
+<% end %>
